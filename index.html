@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bad trello remake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <div id="topbar">
+        <div><span id="title">bad trello remake thing</span> &mdash; <span id="pending-tasks-text"></span></div>
+    </div>
+
+    <form onsubmit="createNewTask(event)" id="new-task-form">
+        <input name="taskDesc" type="text">
+        <input type="submit" value="Create Task">
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>

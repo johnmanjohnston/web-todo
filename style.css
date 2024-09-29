@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body, html { 
+    padding: 0; margin: 0; 
+    font-family: "Inter";
+    background-color: whitesmoke;
+}
+
+#topbar {
+    background-color: #282828;
+    color: white;
+    font-size: 2.5em;
+    padding: 8px;
+}
+
+#title { font-weight: 170; opacity: 0.8; }
+
+.group {
+    border: 1px solid #858585;
+    border-radius: 4px;
+    height: 80vh;
+    overflow: auto;
+    width: 32em;
+    margin-top: 20px;
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: top;
+    color: #282828;
+}
+
+.group-name {
+    font-weight: bolder;
+}
+
+.group div { margin: 8px; }
+
+.task {
+    padding: 1px;
+}
+
+.task input {
+    font-size: 1.1em;
+    width: calc(100% - 8px);
+    color: #282828;
+    border: none;
+    outline: 1px solid rgb(168, 168, 168);
+    padding: 4px;
+}
